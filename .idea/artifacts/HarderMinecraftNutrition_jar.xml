@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HarderMinecraftNutrition:jar">
+    <output-path>$USER_HOME$/Desktop/development/servers/1.17 spigot/dev/plugins</output-path>
+    <root id="archive" name="HarderMinecraftNutrition.jar">
+      <element id="module-output" name="HarderMinecraftNutrition" />
+    </root>
+  </artifact>
+</component>

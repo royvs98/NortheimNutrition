@@ -1,0 +1,10 @@
+General:
+  enableActionBarMessages: true
+Messages:
+  needOtherFood: '&7I should eat something else'
+  needProtein: '&7I could really use some meat'
+  needCarbs: '&7I would love some form of bread'
+  needVitamins: '&7I really want to eat something green'
+  addProteinActionBar: '&c+10 Protein'
+  addCarbsActionBar: '&6+10 Carbs'
+  addVitaminsActionBar: '&d+10 Vitamins'

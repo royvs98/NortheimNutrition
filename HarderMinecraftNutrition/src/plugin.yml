@@ -1,0 +1,8 @@
+name: HMNutrition
+author: Stellrow
+api-version: 1.17
+version: 1.0
+main: ro.Stellrow.HarderMinecraftNutrition.HMNutrition
+
+commands:
+  nutrition:
