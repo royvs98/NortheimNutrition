@@ -1,6 +1,7 @@
 package ro.Stellrow.HarderMinecraftNutrition;
 
 import org.bukkit.Bukkit;
+import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
@@ -47,6 +48,9 @@ public class NutritionManager {
     private void reduceNutrition(){
         Bukkit.getScheduler().runTaskTimer(pl,()->{
             for (UUID uuid : playerNutritions.keySet()){
+                if (Bukkit.getPlayer(uuid)!=null&&Bukkit.getPlayer(uuid).getGameMode()!= GameMode.SURVIVAL){
+                    return;
+                }
                 playerNutritions.get(uuid).reduceNutrition();
                 checkStats(uuid);
             }
