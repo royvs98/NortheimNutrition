@@ -1,0 +1,7 @@
+name: NortheimNutrition
+version: '0.0.1-ALPHA'
+main: com.mrroyalit.northeimnutrition.NortheimNutrition
+api-version: '1.20'
+
+commands:
+  gezondheid:
